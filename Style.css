@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: #660000;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+.box {
+  background-color: #660000;
+  margin: 7px 7px 7px 7px;
+}
+
+.border {
+  border-style: double;
+  width: 50%;
+  padding: 15px 3px 5px 3px;
+  background-color: #eaeae1;  
+  text-align: center;
+  margin: auto;
+}
+
+
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+.intro{
+  border-left: 6px solid #660000;
+  padding: 5px 30px 5px 30px;
+  background-color: lightgrey;
+  width: 50%;
+  margin: auto;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
