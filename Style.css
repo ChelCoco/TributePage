@@ -27,16 +27,20 @@ h2 {
 
 
 .image {
-  width: 400px;
-  height: 300px;
+  width: 80%;
+  height: auto;
 }
 
 .intro{
   border-left: 6px solid #660000;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 20px 5px 20px;
   background-color: lightgrey;
   width: 50%;
   margin: auto;
+}
+
+.Wiki{
+    text-align: center;
 }
 
 footer{
