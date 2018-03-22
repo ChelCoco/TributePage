@@ -10,7 +10,6 @@ h2 {
   text-align: center;
 }
 
-
 .box {
   background-color: #660000;
   margin: 7px 7px 7px 7px;
@@ -19,19 +18,23 @@ h2 {
 .border {
   border-style: double;
   width: 50%;
-  padding: 15px 3px 5px 3px;
-  background-color: #eaeae1;  
+  padding: 15px 3px 15px 3px;
+  background-color: #eaeae1;
   text-align: center;
   margin: auto;
 }
-
 
 .image {
   width: 80%;
   height: auto;
 }
 
-.intro{
+#imgtext {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.intro {
   border-left: 6px solid #660000;
   padding: 5px 20px 5px 20px;
   background-color: lightgrey;
@@ -39,11 +42,7 @@ h2 {
   margin: auto;
 }
 
-.Wiki{
-    text-align: center;
-}
-
-footer{
+footer {
   background-color: black;
   color: white;
   text-align: center;

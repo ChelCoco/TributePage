@@ -1,31 +1,50 @@
-<!-- I decided not to rely on Bootstrap for now, I wanted to get the basics down and write my own CSS-->
-<!doctype html>
-<html lang="en">
+<!-- I decided not to rely on Bootstrap for now, I wanted to get the basics down and write my own CSS. I created anther version of this just with bootstrap. Pushing changes to my own github-->
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" >
   <!-- using a style sheet and it is in the format of text/css and to retrieve it in "style.css"-->
-  <h1> Gertrudis Bocanegra </h1>
-
-  <h2 class="box"> "The Heroine of Patzcuaro"</h2>
+  <title> Gertrudis Bocanegra </title>
 </head>
 
 <body>
+  <h1> Gertrudis Bocanegra </h1>
+  <h2 class="box"> "The Heroine of Patzcuaro"</h2>
   <div class="border">
     <img class="image" src="http://mexicounexplained.com/wp-content/uploads/2016/12/Gertrudis11.jpg" alt="Picture of Elvia Carrillo Puerto"
       alt="Gertrudis Bocanegra">
-    <p> 1765- 1817 </p>
+    <p id="imgtext"> 1765 - 1817 </p>
   </div>
 
   <article>
     <div class="intro">
-      <p> Gertrudis was a tough and bold woman who fought for the mexican war of independence. She read the Age of Enlightment and stood by her husbands side by joining the re </p>
+      <p> Gertrudis was a tough and bold woman who fought for the mexican war of independence. Unlike most women of her time,
+        she had the opportunity to read books, one of them was the Age of Enlightment. Once war broke out, she joined the
+        ant-royalist forces with her husband and son. She carried out communications between the town of Patzcuaro and Tacambaro.
+        She was a messenger for two rebel strongholds and a target for royal forces. On 1817, she was captured and tortured.
+        She never gave any information about her fellow revolutionaries. Today she's honored in her home town and her war
+        efforts have not been forgotten.</p>
+      <dl class="dl-horizontal">
+        <dt> • 1765 </dt>
+        <dd>- Gertrudis was born</dd>
+        <dt> • 1810 </dt>
+        <dd>- War broke out. Gertrudis was 45 years old.</dd>
+        <dt> • 1811 </dt>
+        <dd>- Her husband and son are killed in battle.</dd>
+        <dt> • 1817 </dt>
+        <dd>- Captured, tortured and killed.</dd>
+      </dl>
     </div>
   </article>
-  <div class="Wiki">          
-    <p>To learn more about this heroine, please click on the<a href= "https://en.wikipedia.org/wiki/Gertrudis_Bocanegra"> Wikipedia Link</a> </p>
+  <div class="lead text-center">
+    <p>To learn more about this heroine, please click on the
+      <!--  target="_blank" opens anchor link in a new tab -->
+      <a href="https://en.wikipedia.org/wiki/Gertrudis_Bocanegra" target="_blank"> Wikipedia Link</a>
+    </p>
   </div>
-  <footer>Written by Chelcie White</footer>
+  <footer>Written and coded by <a href="https://github.com/ChelWhite">Chelcie White</a></footer>
 </body>
 
 </html>
